@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+header .nav-links li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #555;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+/* Gallery Section */
+.gallery-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+button.prev, button.next {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+button.prev:hover, button.next:hover {
+    background-color: #555;
+}
+
+/* About Section */
+.about-section {
+    padding: 2rem;
+    background-color: #e9e9e9;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    padding: 0.7rem 1.5rem;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
